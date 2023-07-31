@@ -92,9 +92,9 @@ void RunAsConsole(string license, string testInput, string dataPath)
 		// Print output
 		cout << "\n============================== OUTPUT ==============================\n"                       << endl;
 		cout << "\n\tRightFielder Object Information:"                                                           << endl;
-		cout << "\t          AddressLine1: " + string(rightFielderObject->mdRightFielderObj->GetAddress())       << endl;
-		cout << "\t          AddressLine2: " + string(rightFielderObject->mdRightFielderObj->GetAddress2())      << endl;
-		cout << "\t          AddressLine3: " + string(rightFielderObject->mdRightFielderObj->GetAddress3())      << endl;
+		cout << "\t        Address Line 1: " + string(rightFielderObject->mdRightFielderObj->GetAddress())       << endl;
+		cout << "\t        Address Line 2: " + string(rightFielderObject->mdRightFielderObj->GetAddress2())      << endl;
+		cout << "\t        Address Line 3: " + string(rightFielderObject->mdRightFielderObj->GetAddress3())      << endl;
 		cout << "\t                  City: " + string(rightFielderObject->mdRightFielderObj->GetCity())          << endl;
 		cout << "\t                 State: " + string(rightFielderObject->mdRightFielderObj->GetState())         << endl;
 		cout << "\t                   Zip: " + string(rightFielderObject->mdRightFielderObj->GetPostalCode())    << endl;
