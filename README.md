@@ -25,11 +25,7 @@ And return
 
 ## Tested Environments
 - Windows 10 64-bit Microsoft Visual C++ 14.34, Powershell 5.1
-<<<<<<< HEAD
-- Melissa data files for 2024-Q3
-=======
-- Melissa data files for 2024-Q3
->>>>>>> 3606fb3a0c46d1054064eed79831ddc201f9d91b
+- Melissa data files for 2024-Q4
 - Nmake 14.34
 - Visual Studio 2022 Developer Command Prompt v17.4.2 64-bit
 
@@ -68,8 +64,8 @@ The console will then prompt you with the following warning shown in the image b
 
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/RightFielderObject-Cpp
-$ cd RightFielderObject-Cpp
+git clone https://github.com/MelissaData/RightFielderObject-Cpp
+cd RightFielderObject-Cpp
 ```
 
 #### Set up Melissa Updater 
@@ -103,24 +99,24 @@ There are two modes:
 
     The script will prompt the user for the right fielder input, then use the provided right fielder input to test the Right Fielder Object. For example:
     ```
-    $ .\MelissaRightFielderObjectWindowsCpp.ps1
+    .\MelissaRightFielderObjectWindowsCpp.ps1
     ```
     For quiet mode:
     ```
-    $ .\MelissaRightFielderObjectWindowsCpp.ps1 -quiet
+    .\MelissaRightFielderObjectWindowsCpp.ps1 -quiet
     ```
 
 - Command Line 
 
     You can pass a right fielder input in ```-rfinput``` parameter and a license string in ```-license``` parameter to test the Right Fielder Object. For example:
     ```
-    $ .\MelissaRightFielderObjectWindowsCpp.ps1 -rfinput "22382 Avenida Empresa, Rancho Santa Margarita, CA 92688"
-    $ .\MelissaRightFielderObjectWindowsCpp.ps1 -rfinput "22382 Avenida Empresa, Rancho Santa Margarita, CA 92688" -license "<your_license_string>" 
+    .\MelissaRightFielderObjectWindowsCpp.ps1 -rfinput "22382 Avenida Empresa, Rancho Santa Margarita, CA 92688"
+    .\MelissaRightFielderObjectWindowsCpp.ps1 -rfinput "22382 Avenida Empresa, Rancho Santa Margarita, CA 92688" -license "<your_license_string>" 
     ```
     For quiet mode:
     ```
-    $ .\MelissaRightFielderObjectWindowsCpp.ps1 -rfinput "22382 Avenida Empresa, Rancho Santa Margarita, CA 92688" -quiet
-    $ .\MelissaRightFielderObjectWindowsCpp.ps1 -rfinput "22382 Avenida Empresa, Rancho Santa Margarita, CA 92688" -license "<your_license_string>" -quiet
+    .\MelissaRightFielderObjectWindowsCpp.ps1 -rfinput "22382 Avenida Empresa, Rancho Santa Margarita, CA 92688" -quiet
+    .\MelissaRightFielderObjectWindowsCpp.ps1 -rfinput "22382 Avenida Empresa, Rancho Santa Margarita, CA 92688" -license "<your_license_string>" -quiet
     ```
     
 This is the expected output from a successful setup for interactive mode:
